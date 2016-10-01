@@ -1,5 +1,29 @@
+body {
+    max-width: 970px;
+    margin: 0 auto;
+}
+div {
+    width: 100%;
+}
+img {
+    width: 100%;
+}
 header {
     background-color: lightred;
+    }
+    nav#price{
+        display: flex;
+        flex-direction:row-reverse;
+        justify-content: space-around;
+        float: left; 
+    }   
+    li {
+        display:list-item;
+        text-align: -webkit-match-parent;
+    }
+    nav#contact{
+        display: flex;
+        justify-content: flex-end;
     }
 main {
     background-color: lightblue ;
