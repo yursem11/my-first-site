@@ -1,0 +1,11 @@
+header {
+    background-color: lightred;
+    }
+main {
+    background-color: lightblue ;
+    }
+aside#right {
+    background-color: gray;
+    footer {
+    background-color: orange;
+}
