@@ -1,7 +1,7 @@
 body {
-    max-width: 970px;
+    max-width: 1200px;
     margin: 0 auto;
-}
+    }
 div {
     width: 100%;
 }
@@ -9,16 +9,18 @@ img {
     width: 100%;
 }
 .header-post {
+    display: inline-block;
     margin: 0;
-    padding: 0 auto;
     background-color: lightred;
     font-size: 3em;
     text-align: center;
+    min-width: 200px;
+    vertical-align: middle;
     }
     nav#price{
         display: flex;
         flex-direction:row-reverse;
-        justify-content: space-around;
+        justify-content: space-between;
         float: left; 
     }   
     li {
