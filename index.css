@@ -8,8 +8,12 @@ div {
 img {
     width: 100%;
 }
-header {
+.header-post {
+    margin: 0;
+    padding: 0 auto;
     background-color: lightred;
+    font-size: 3em;
+    text-align: center;
     }
     nav#price{
         display: flex;
