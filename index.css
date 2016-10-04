@@ -9,14 +9,14 @@ body {
 img {
     width: 100%;
 }
-.header-post {
+.head {
     display: inline-block;
     margin: 0;
-    background-color: lightred;
     font-size: 3em;
     text-align: center;
     min-width: 200px;
     vertical-align: middle;
+    font-style: 'Arial', italic;
     }
     nav#price{
         display: flex;
