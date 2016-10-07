@@ -16,26 +16,45 @@ img {
     text-align: center;
     min-width: 200px;
     vertical-align: middle;
-    font-style: 'Arial', italic;
-    }
-    nav#price{
-        display: flex;
-        flex-direction:row-reverse;
+    font-style: 'Arial', italic; 
+            }
+            .head h1{
+                background-color: orange
+            }
+    div#nav{
+        display:flex;
         justify-content: space-between;
-        float: left; 
-    }   
-    li {
-        display:list-item;
-        text-align: -webkit-match-parent;
     }
-    nav#contact{
-        display: flex;
-        justify-content: flex-end;
-    }
-main {
-    background-color: lightblue ;
+    nav.price-menu{
+     width: 40%;
+     margin: 0;
+     padding: 0;
+         }
+         .price-menu ul {
+             display:flex;
+             justify-content: space-between;
+             margin: 0;
+             padding: 0;
+             list-style:none;
+             font-size: 1em;
+         }
+         li{
+             margin:0;
+             padding:0;
+             display: list-item;
+             text-align: -webkit-match-parent;
+                     }
+                     
+                     section.about-comp {
+                         display: flex;
+                         justify-content: flex-start;
+                     }
+    main {
+        width: 60%;
+    background-image: 
     }
 aside#right {
+    width: 40%;
     background-color: gray;
     footer {
     background-color: orange;
