@@ -1,5 +1,5 @@
 body {
-    max-width: 1200px;
+    max-width: 1500px;
     margin: 0 auto;
     }
 .head {
@@ -19,11 +19,12 @@ img {
     font-style: 'Arial', italic; 
             }
             .head h1{
-                background-color: orange
+                background-image: url("bake1.jpg");
             }
     div#nav{
         display:flex;
         justify-content: space-between;
+    
     }
     nav.price-menu{
      width: 40%;
@@ -39,10 +40,13 @@ img {
              font-size: 1em;
          }
          li{
+             display: flex;
+             justify-content: center;
              margin:0;
              padding:0;
              display: list-item;
-             text-align: -webkit-match-parent;
+             text-align: center;
+             font-size: 0.5em;
                      }
                      
                      section.about-comp {
@@ -51,7 +55,7 @@ img {
                      }
     main {
         width: 60%;
-    background-image: 
+    background-image: url("cake5.jpg");
     }
 aside#right {
     width: 40%;
