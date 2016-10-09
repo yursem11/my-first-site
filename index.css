@@ -74,7 +74,7 @@ aside#right {
     margin: 0 auto;
 }
     #hexGrid {
-        background-image: url("image/fone6.jpg")
+        background-image: url("image/fone2.jpg")
             }
             ul {
                 list-style: none;
@@ -94,10 +94,13 @@ margin: 0 auto;
 width: 40%;
 height: 40%;
 }
-footer.end {
+.end {
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-itens: center;
-    background-image: url("image/fone5jpg")
+    background-image: url("image/fone1jpg");
+}
+.end p {
+    text-align: center;
+    font-size: 1.5em;
+    font-style: italic;
 }
