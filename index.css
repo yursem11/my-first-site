@@ -71,26 +71,16 @@ body {
             }
 aside#right {
     width: 40%;
-    background-color: gray;
     margin: 0 auto;
-    .hex {
-    position: relative;
-    list-style-type: none;
-    float: left;
-    overflow: hidden;
-    visibility: hidden;
-    outline: 1px solid transparent;
-    width: 5.8%;
 }
-ul#hexGrid {
-    overflow: hidden;
-    overflow-x: hidden;
-    overflow-y: hidden;
-    width: 10%;
-    margin: 0 auto;
-    padding: 0.866% 0;
-}
-
+    #hexGrid {
+        
+    }
+    .pics {
+        width: 50%;
+        padding: 0;
+        margin: 0;
+            }
 .contacts {
     display: flex;
     justify-content: space-between;
