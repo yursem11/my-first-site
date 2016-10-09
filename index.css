@@ -60,7 +60,7 @@ body {
                      }
       section.about-comp {
                          display: flex;
-                         justify-content: flex-start;
+                         justify-content: space-between;
                      }
     main {
         width: 60%;
