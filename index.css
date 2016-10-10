@@ -80,7 +80,7 @@ aside#right {
                 list-style: none;
             }
     .pics {
-        height: 80px;
+        height: 90px;
         width: 150px;
         padding: 0 auto;
         margin: 0 auto;
@@ -97,10 +97,11 @@ height: 40%;
 .end {
     display: flex;
     flex-direction: column;
-    background-image: url("image/fone1jpg");
+    background-image: url("image/fone5.jpg");
+    margin-top: 10px;
 }
 .end p {
     text-align: center;
     font-size: 1.5em;
     font-style: italic;
-}
+    }
