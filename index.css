@@ -1,6 +1,9 @@
 body {
     max-width: 1500px;
     margin: 0 auto;
+    background-image: url("image/fone4.img");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
     }
 .head {
     width: 100%;
@@ -23,6 +26,7 @@ body {
                 margin: auto;
                 position: absolute;
                 text-align: center;
+                color: DarkRed;
                     }
             .head h2{
                 margin: auto;
@@ -67,11 +71,12 @@ body {
         font-size: larger;
         text-align: justify;
         margin-right: 10px;
-        background-image: url("image/fone2.jpg");
+        background-image: url();
             }
 aside#right {
     width: 40%;
     margin: 0 auto;
+    padding-top: inherit
 }
     #hexGrid {
         background-image: url("image/fone2.jpg")
@@ -102,6 +107,7 @@ height: 30%;
 }
 .end p {
     text-align: center;
-    font-size: 1.5em;
+    font-size: 2.5em;
     font-style: italic;
+    font-variant: small-caps;
     }
