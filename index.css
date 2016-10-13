@@ -78,21 +78,8 @@ body {
 aside#right {
     width: 40%;
     margin: 0 auto;
-    padding-top: inherit
-}
-    #hexGrid {
-        background-image: url("")
-            }
-            ul {
-                list-style: none;
-            }
-    .pics {
-        height: 90px;
-        width: 150px;
-        padding: 0 auto;
-        margin: 0 auto;
-            }
-            #cont_start {
+    }
+                #cont_start {
                 text-align: center;
                         }
                         #cont_start h5 {
