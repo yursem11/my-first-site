@@ -1,7 +1,7 @@
 body {
     max-width: 1500px;
     margin: 0 auto;
-    background-image: url("image/fone4.img");
+    background-image: url("image/fone6.img");
     background-repeat: no-repeat;
     background-attachment: fixed;
     }
@@ -38,6 +38,7 @@ body {
         justify-content: space-between;
         margin-top: 10px;
         margin-bottom: 20px;
+        padding-left: 20px;
     }
     nav.price-menu{
      width: 40%;
@@ -72,6 +73,7 @@ body {
         text-align: justify;
         margin-right: 10px;
         background-image: url();
+        padding-left: 15px;
             }
 aside#right {
     width: 40%;
@@ -79,7 +81,7 @@ aside#right {
     padding-top: inherit
 }
     #hexGrid {
-        background-image: url("image/fone2.jpg")
+        background-image: url("")
             }
             ul {
                 list-style: none;
@@ -90,19 +92,29 @@ aside#right {
         padding: 0 auto;
         margin: 0 auto;
             }
+            #cont_start {
+                text-align: center;
+                        }
+                        #cont_start h5 {
+                            font-size: 3em;
+                            color: darkred;
+                        }
 .contacts {
     display: flex;
     justify-content: space-between;
+    padding-left: 20px;
+    font-size: large;
 }
-#contacts img {
+#contacts {
 margin: 0 auto;
 width: 30%;
 height: 30%;
+display: flex;
 }
 .end {
     display: flex;
     flex-direction: column;
-    background-image: url("image/fone5.jpg");
+    background-image: url("");
     margin-top: 10px;
 }
 .end p {

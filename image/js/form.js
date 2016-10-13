@@ -9,5 +9,10 @@ $(function () {
                 text: $('#texts').val()
             },
             dataType: "json"
-        })
+        }).done(function() {
+            $('form').html('<h1>Дякую!!</h1>')
+        }).fail(function(xhr, err) {
+            $('form').html(xhr.statusText);
+        });        
+    })
 });
