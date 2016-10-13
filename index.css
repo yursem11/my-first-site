@@ -1,112 +1,112 @@
-body {
-    max-width: 1500px;
-    margin: 0 auto;
-    background-image: url("image/fone6.img");
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    }
-.head {
-    width: 100%;
-    height: 100%;
-    }
-.head img {
-    width: 100%;
-    border-radius: 20px;
-    }
-.head {
-    display: inline-block;
-    margin: 0;
-    font-size: 3em;
-    text-align: center;
-    min-width: 200px;
-    vertical-align: middle;
-    font-style: 'Arial', italic; 
-            }
-            .head h1{
-                margin: auto;
-                position: absolute;
-                text-align: center;
-                color: DarkRed;
+    body {
+        max-width: 1500px;
+        margin: 0;
+        background: url("image/fone8.jpg") no-repeat fixed;
+        background-size: 100%;
+        }
+    .head {
+        width: 100%;
+        height: 100%;
+        }
+    .head img {
+        width: 100%;
+        border-radius: 20px;
+        }
+    .head {
+        display: inline-block;
+        margin: 0;
+        font-size: 3em;
+        text-align: center;
+        min-width: 200px;
+        vertical-align: middle;
+        font-style: 'Arial', italic; 
+                }
+                .head h1{
+                    margin: auto;
+                    position: absolute;
+                    text-align: center;
+                    color: DarkRed;
                     }
-            .head h2{
-                margin: auto;
-                background-image: url("image/fone3.jpg");
-                border-radius: 20px;
-                            }
-    div#nav{
-        display:flex;
-        justify-content: space-between;
-        margin-top: 10px;
-        margin-bottom: 20px;
-        padding-left: 20px;
-    }
-    nav.price-menu{
-     width: 40%;
-     margin: 0;
-     padding: 0;
-         }
-         .price-menu ul {
-             display:flex;
-             justify-content: space-between;
-             margin: 0;
-             padding: 0;
-             list-style:none;
-             font-size: 1em;
-         }
-         li{
-             display: flex;
-             justify-content: center;
-             margin:0;
-             padding:0;
-             display: list-item;
-             text-align: center;
-             font-size: 0.5em;
-             font-family: cursive;
-                     }
-      section.about-comp {
-                         display: flex;
-                         justify-content: flex-start;
-                     }
-    main {
-        width: 60%;
-        font-size: larger;
-        text-align: justify;
-        margin-right: 10px;
-        background-image: url();
-        padding-left: 15px;
+                .head h2{
+                    margin: auto;
+                    background-image: url("image/fone7.jpg");
+                    border-radius: 20px;
+                    color: Darkred;                            }
+        div#nav{
+            display:flex;
+            justify-content: space-between;
+            margin-top: 10px;
+            margin-bottom: 20px;
+            padding-left: 20px;
+                }
+        nav.price-menu{
+         width: 40%;
+         margin: 0;
+         padding: 0;
+                 }
+             .price-menu ul {
+                 display:flex;
+                 justify-content: space-between;
+                 margin: 0;
+                 padding: 0;
+                 list-style:none;
+                 font-size: 1em;
+                          }
+             .price-menu li{
+                 display: flex;
+                 justify-content: center;
+                 margin: 0;
+                 padding: 0;
+                 display: list-item;
+                 text-align: center;
+                 font-size: 0.5em;
+                 font-family: cursive;
+             }
+          section.about-comp {
+                             display: flex;
+                             justify-content: flex-start;
+                         }
+        main {
+            width: 60%;
+            font-size: larger;
+            text-align: justify;
+            margin-right: 10px;
+            padding-left: 15px;
             }
-aside#right {
-    width: 40%;
+    aside#right {
+        width: 40%;
+        margin: 0 auto;
+        color: DarkRed;
+        }
+                    #cont_start {
+                    text-align: center;
+                            }
+                            #cont_start h5 {
+                                font-size: 3em;
+                                color: darkred;
+                            }
+    .my_contacts {
+        display: flex;
+        justify-content: space-between;
+        padding-left: 20px;
+        font-size: large;
+        
+    }
+    #contacts {
     margin: 0 auto;
-    }
-                #cont_start {
-                text-align: center;
-                        }
-                        #cont_start h5 {
-                            font-size: 3em;
-                            color: darkred;
-                        }
-.contacts {
+    width: 30%;
+    height: 30%;
     display: flex;
-    justify-content: space-between;
-    padding-left: 20px;
-    font-size: large;
-}
-#contacts {
-margin: 0 auto;
-width: 30%;
-height: 30%;
-display: flex;
-}
-.end {
-    display: flex;
-    flex-direction: column;
-    background-image: url("");
-    margin-top: 10px;
-}
-.end p {
-    text-align: center;
-    font-size: 2.5em;
-    font-style: italic;
-    font-variant: small-caps;
     }
+    .end {
+        display: flex;
+        flex-direction: column;
+            margin-top: 10px;
+    }
+    .end p {
+        text-align: center;
+        font-size: 2.5em;
+        font-style: italic;
+        font-variant: small-caps;
+        color: Darkred;
+                }
