@@ -32,37 +32,14 @@
                     background-image: url("image/fone7.jpg");
                     border-radius: 20px;
                     color: Darkred;                            }
-        div#nav{
+        nav{
             display:flex;
             justify-content: space-between;
             margin-top: 10px;
             margin-bottom: 20px;
             padding-left: 20px;
                 }
-        nav.price-menu{
-         width: 40%;
-         margin: 0;
-         padding: 0;
-                 }
-             .price-menu ul {
-                 display:flex;
-                 justify-content: space-between;
-                 margin: 0;
-                 padding: 0;
-                 list-style:none;
-                 font-size: 1em;
-                          }
-             .price-menu li{
-                 display: flex;
-                 justify-content: center;
-                 margin: 0;
-                 padding: 0;
-                 display: list-item;
-                 text-align: center;
-                 font-size: 0.5em;
-                 font-family: cursive;
-             }
-          section.about-comp {
+                  section.about-comp {
                              display: flex;
                              justify-content: flex-start;
                          }
@@ -73,7 +50,10 @@
             margin-right: 10px;
             padding-left: 15px;
             }
-    aside#right {
+            #goods  {
+            width: 500px;
+            }
+        aside#right {
         width: 40%;
         margin: 0 auto;
         color: DarkRed;

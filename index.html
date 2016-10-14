@@ -21,23 +21,19 @@ crossorigin="anonymous">
         <img src="image/field of breads.jpeg" alt="few kinds of bread" height="300px">
         <h2><b><i>Підприємець Семків Ю.Р.</i></b></h2>
         </div>
-        <div id="nav">
-            <nav class="price-menu">
-                <ul>
-                    <li>
-                        <a href="#about_company">Про нас</a>
-                        </li>
-                        
-                    <li>
-                        <a href="#kinds_of_bread">Асортимент і ціни</a>
-                        </li>
-                        <li>
-                        <a href="#contact">Контаки</a>
-                        </li>
-                </ul>
-            </nav>
-            </div>
-            </section>
+        <nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="#">ПП "Семків"</a>
+    </div>
+    <ul class="nav navbar-nav">
+      <li class="active"><a href="#about_company">Про нас</a></li>
+      <li><a href="#kinds_of_bread">Асортимент і ціни</a></li>
+      <li><a href="#contact">Контакти</a></li>
+    </ul>
+  </div>
+</nav>
+        </section>
             </header>
             <section class="about-comp">
     <main class="text1">
@@ -56,7 +52,7 @@ crossorigin="anonymous">
         </div><br>
         
         <div class="products" id="kinds_of_bread"><h4><b>НАША ПРОДУКЦІЯ:</b></h4>
-          <table>
+          <table id="goods">
               <tr>
                   <th>Назва виробу</th>
                   <th>Ціна, в грн</th>
@@ -97,7 +93,7 @@ crossorigin="anonymous">
             </div>
         </main>
     <aside id="right">
-        <div class="jumbotron">
+        <div class="container">
             <p><b>Наші вироби:</b></p>
      <div id="myCarousel" class="carousel slide" data-ride="carousel">
   <!-- Indicators -->
@@ -222,14 +218,14 @@ crossorigin="anonymous">
             <form id="contact_me">
             <label>
                 Ваше повне ім'я:<br>
-                <input type="text" name="name" id="names">
+                <input type="text" name="name" id="name">
             </label><br>
             <br>
             <label>
                 Ваше повідомлення:<br>
-            <input type="textarea" name="text" id="texts">
+            <input type="textarea" name="text" id="text">
         </label>
-        <button id="sends">
+        <button id="send">
             Надіслати
         </button>
         </form>

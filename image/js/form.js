@@ -1,12 +1,12 @@
 $(function () {
-    $('#sends').click(function(e) {
+    $('#send').click(function(e) {
         e.preventDefault();
         $.ajax({
             url: "https://formspree.io/yursem@meta.ua", 
             method: "POST",
             data: {
-                message: $('#names').val(),
-                text: $('#texts').val()
+                message: $('#name').val(),
+                text: $('#text').val()
             },
             dataType: "json"
         }).done(function() { 
