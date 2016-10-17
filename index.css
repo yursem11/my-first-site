@@ -52,15 +52,32 @@
             #goods  {
             width: 500px;
             }
-        aside#right {
-        width: 40%;
-        margin: 0 auto;
+     #right {
+        width: 500px;
         color: DarkRed;
         }
+        .adress {
+            margin: 5px;
+        }
                     #cont_start {
-                    text-align: center;
-                            }
-                            #cont_start h5 {
+                    display: flex;
+                    justify-content: center;
+                    margin-bottom: 10px;
+                                    }
+                    #bons1 {
+                        width: 300px;
+                        height: 200px;
+                        border-radius: 20%;
+                    }
+                        #bons2 {
+                        width: 300px;
+                        height: 200px;
+                        border-radius: 20%;
+                    }
+                    #contacts {
+                        border-radius: 20%;
+                    }
+                            .adress h5 {
                                 font-size: 3em;
                                 color: darkred;
                             }
@@ -80,7 +97,8 @@
     .end {
         display: flex;
         flex-direction: column;
-            margin-top: 10px;
+        margin-top: 10px;
+        height:  10%;
     }
     .end p {
         text-align: center;
@@ -88,4 +106,57 @@
         font-style: italic;
         font-variant: small-caps;
         color: Darkred;
+        
                 }
+                #map {
+    border-style: groove;
+    border-width: 5px;
+    height: 200px;
+    width: 400px;
+    background-color: grey;
+    float: right;
+    margin-right: 10%;
+                }
+                .jumbotron {
+                    width: 500px;
+                    padding-left: 20px;
+                    padding-right: 20px;
+                }
+                .btn-vertical-slider { margin-left: 10px; cursor: pointer;}
+a {  cursor:pointer;}
+.carousel.vertical .carousel-inner .item {
+  -webkit-transition: 0.6s ease-in-out top;
+     -moz-transition: 0.6s ease-in-out top;
+      -ms-transition: 0.6s ease-in-out top;
+        -o-transition: 0.6s ease-in-out top;
+          transition: 0.6s ease-in-out top;
+}
+
+ .carousel.vertical .active {
+  top: 0;
+}
+
+ .carousel.vertical .next {
+  top: 100%;
+}
+
+ .carousel.vertical .prev {
+  top: -100%;
+}
+
+ .carousel.vertical .next.left,
+.carousel.vertical .prev.right {
+  top: 0;
+}
+
+ .carousel.vertical .active.left {
+  top: -100%;
+}
+
+ .carousel.vertical .active.right {
+  top: 100%;
+}
+
+ .carousel.vertical .item {
+    left: 0;
+}
